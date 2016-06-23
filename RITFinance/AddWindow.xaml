@@ -1,0 +1,81 @@
+﻿<Window x:Class="RITFinance.AddEditwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RITFinance"
+        Icon="Resources/ico.png"
+        mc:Ignorable="d"
+        Title="Новый актив"  Width="535.2" Height="302" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow" >
+    <Grid Background="#FF42454D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="205*"/>
+            <RowDefinition Height="28*"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Margin="73,5,0,0" Width="165" Height="25" VerticalAlignment="Top">
+            <ComboBoxItem Content="Денежный актив" HorizontalAlignment="Left" Width="130" Selected="SelectedComboMonetary_OnSelected" />
+            <ComboBoxItem Content="Не денежный актив" HorizontalAlignment="Left" Width="130" Selected="SelectedComboMaterial_OnSelected" />
+        </ComboBox>
+        <Label Grid.Row="0" x:Name="SelectTextLabel" Content="Тип актива" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Height="26" Width="70" Foreground="Orange"/>
+        <RadioButton Grid.Row="0" x:Name="RadioButtonBankAsset" Content="В банке" HorizontalAlignment="Left" Margin="366,10,0,0" VerticalAlignment="Top" Visibility="Hidden" Checked="RdioButtonBankAsset_OnChecked" Height="15" Width="70"/>
+        <RadioButton Grid.Row="0" x:Name="RadioButtonCashAsset" Content="В кассе" HorizontalAlignment="Left" Margin="245,10,0,0" VerticalAlignment="Top" Visibility="Hidden" Checked="RadioButtonCashAsset_OnChecked" Height="15" Width="71"/>
+        <RadioButton Grid.Row="0" x:Name="RadioButtonEstate" Content="Недвижимость" HorizontalAlignment="Left" Margin="245,10,0,0" VerticalAlignment="Top" Visibility="Hidden" Checked="RadioButtonEstate_OnChecked" Height="15" Width="105"/>
+        <RadioButton Grid.Row="0" x:Name="RadioButtonMaterialAsset" Content="Имущественный актив" HorizontalAlignment="Left" Margin="366,10,-4,0" VerticalAlignment="Top" Visibility="Hidden" Checked="RadioButtonMaterialAsset_OnChecked" Height="15" Width="165"/>
+        <Canvas x:Name="CanvasBank" Height="189" Margin="5,10,10,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden" >
+            <TextBox x:Name="TextBoxMonetaryNameB" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top"/>
+            <TextBox x:Name="TextBoxMonetaryBankAccountB" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="25"/>
+            <TextBox x:Name="TextBoxMonetaryBankNameB" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="50"/>
+            <TextBox x:Name="TextBoxMonetaryValuteB" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="75"/>
+            <TextBox x:Name="TextBoxMonetaryAmountB" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="101"/>
+            <TextBox x:Name="TextBoxMonetaryAdditionalInfoB" Height="63" TextWrapping="Wrap" Canvas.Top="126" Width="307"/>
+            <Label x:Name="LabelBoxMonetaryNameB" Content="Имя актива" Canvas.Left="307" Canvas.Top="-1" Width="168" FontSize="9.333"/>
+            <Label x:Name="LabelBankAccountB" Content="Номер счета *" Canvas.Left="307" Canvas.Top="24" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+            <Label x:Name="LabelMonetaryBankNameB" Content="Имя банка *" Canvas.Left="307" Canvas.Top="49" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+            <Label x:Name="LabelTextBoxMonetaryValuteB" Content="Вид валюты\Эквивалент *" Canvas.Left="307" Canvas.Top="74" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+            <Label x:Name="LabelMonetaryAmountB" Content="Сумма *" Canvas.Left="307" Canvas.Top="101" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+            <Label x:Name="LabelMonetaryAdditionalInfoB" Content="Дополнительная информация" Canvas.Left="307" Canvas.Top="126" FontSize="9.333" Height="24"/>
+        </Canvas>
+        <Canvas x:Name="CanvasCash" Height="189" Margin="5,10,5,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden">
+            <TextBox x:Name="TextBoxNameC" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" AcceptsReturn="True" />
+            <TextBox x:Name="TextBoxAmountC" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="25" AcceptsReturn="True" />
+            <TextBox x:Name="TextBoxAdditionalInfoC" Height="100" TextWrapping="Wrap"  Canvas.Top="79" Width="307"/>
+            <TextBox x:Name="TextBoxValuteC" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="52" AcceptsReturn="True" />
+            <Label x:Name="LabelNameC" Content="Имя актива" Canvas.Left="307" Canvas.Top="-1" Width="168" FontSize="9.333"/>
+            <Label x:Name="LabelAmountC" Content="Сумма *" Canvas.Left="307" Canvas.Top="24" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+            <Label x:Name="LabelAdditionalInfoC" Content="Дополнительная информация" Canvas.Left="307" Canvas.Top="79" FontSize="9.333" Height="24"/>
+            <Label x:Name="LabelValuteC" Content="Вид валюты\Эквивалент *" Canvas.Left="307" Canvas.Top="52" FontSize="9.333" RenderTransformOrigin="0.333,2.045"/>
+        </Canvas>
+        <Canvas x:Name="CanvasMaterial" Height="189" Margin="5,10,5,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden">
+            <TextBox x:Name="TextBoxMeterialNameM" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top"/>
+            <TextBox x:Name="TextBoxMeterialInitialBalanceСostM" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="25"/>
+            <TextBox x:Name="TextBoxMeterialFinalBalanceCostM" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="50"/>
+            <TextBox x:Name="TextBoxMeterialEstimatedCostM" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="75"/>
+            <TextBox x:Name="TextBoxMeterialAdditionalInfoM" Height="79" TextWrapping="Wrap" Canvas.Top="100" Width="307"/>
+            <Label x:Name="LabelAssertNameM" Content="Имя актива" Canvas.Left="307" FontSize="9.333"/>
+            <Label x:Name="LabelMeterialInitialBalanceСostM" Content="Начальная балансовая стоимость *" Canvas.Left="307" Canvas.Top="24" Width="168" FontSize="9.333"/>
+            <Label x:Name="LabelFinalBalanceCostM" Content="Итоговая балансовая стоимость *" Canvas.Left="307" Canvas.Top="48" FontSize="9.333"/>
+            <Label x:Name="LabelMeterialEstimatedCostM" Content="Оценочная стоимость *" Canvas.Left="307" Canvas.Top="73" FontSize="9.333"/>
+            <Label x:Name="LabelAdditionalInfoM" Content="Дополнительная информация" Canvas.Left="307" Canvas.Top="100" FontSize="9.333" Height="24"/>
+        </Canvas>
+        <Canvas x:Name="CanvasMaterialEstate" Height="189" Margin="5,10,5,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden">
+            <TextBox x:Name="TextBoxMeterialEstateNameE" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top"/>
+            <TextBox x:Name="TextBoxMeterialInitialEstateBalanceСostE" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="25"/>
+            <TextBox x:Name="TextBoxMeterialFinalEstateBalanceCostE" TextWrapping="Wrap"  Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="50"/>
+            <TextBox x:Name="TextBoxMeterialEstimatedEstateCostE" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="74"/>
+            <TextBox x:Name="TextBoxMeterialEstateBuildingdateE" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="100"/>
+            <TextBox x:Name="TextBoxMeteriaEstatelAdressE" TextWrapping="Wrap" Width="307" Height="20" VerticalAlignment="Top" Canvas.Top="124"/>
+            <TextBox x:Name="TextBoxMeterialEstateAdditionalInfoE" Height="38" TextWrapping="Wrap" Canvas.Top="150" Width="307"/>
+            <Label x:Name="LabelAssertEstateNameE" Content="Имя актива" Canvas.Left="307" FontSize="9.333"/>
+            <Label x:Name="LabelMeterialInitialEstateBalanceСostE" Content="Начальная балансовая стоимость *" Canvas.Left="307" Canvas.Top="24" Width="168" FontSize="9.333"/>
+            <Label x:Name="LabelFinalEstateBalanceCostE" Content="Итоговая балансовая стоимость *" Canvas.Left="307" Canvas.Top="48" FontSize="9.333"/>
+            <Label x:Name="LabelMeterialEstateEstimatedCostE" Content="Оценочная стоимость *" Canvas.Left="307" Canvas.Top="72" FontSize="9.333"/>
+            <Label x:Name="LabelEstateAdditionalInfoE" Content="Дополнительная информация" Canvas.Left="308" Canvas.Top="152" FontSize="9.333" Height="24"/>
+            <Label x:Name="LabelMeterialEstateBuildingDateE" Content="Дата постройки *" Canvas.Left="308" Canvas.Top="100" FontSize="9.333"/>
+            <Label x:Name="LabelEstateAdressE" Content="Адрес" Canvas.Left="309" Canvas.Top="124" FontSize="9.333" Height="24"/>
+
+        </Canvas>
+        <Button x:Name="AcceptButton" Content="Добавить" HorizontalAlignment="Left" Grid.Row="2" Width="64" Margin="0,1,0,0" Click="AcceptButton_OnClick"/>
+        <Button x:Name="CencelButton" Content="Отмена" HorizontalAlignment="Left" Margin="64,1,0,0" Grid.Row="2" Width="70" Click="CencelButton_Click"/>
+    </Grid>
+</Window>
