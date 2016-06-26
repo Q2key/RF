@@ -1,0 +1,80 @@
+C:\Users\user\Desktop\RITFinance\RITFinance\bin\Debug\RITFinance.exe.config
+C:\Users\user\Desktop\RITFinance\RITFinance\bin\Debug\RITFinance.exe
+C:\Users\user\Desktop\RITFinance\RITFinance\bin\Debug\RITFinance.pdb
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\AddWindow.g.cs
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\EditWindow.g.cs
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\App.g.cs
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance_MarkupCompile.cache
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance_MarkupCompile.lref
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\App.baml
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\AddWindow.baml
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\EditWindow.baml
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.g.resources
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.Properties.Resources.resources
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.exe
+C:\Users\user\Desktop\RITFinance\RITFinance\obj\Debug\RITFinance.pdb
+D:\rabota\RF-master\RITFinance\bin\Debug\RITFinance.exe.config
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.exe
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.pdb
+D:\rabota\RF-master\RITFinance\bin\Debug\RITFinance.exe
+D:\rabota\RF-master\RITFinance\bin\Debug\RITFinance.pdb
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.csprojResolveAssemblyReference.cache
+D:\rabota\RF-master\RITFinance\obj\Debug\AddWindow.g.cs
+D:\rabota\RF-master\RITFinance\obj\Debug\EditWindow.g.cs
+D:\rabota\RF-master\RITFinance\obj\Debug\MainWindow.g.cs
+D:\rabota\RF-master\RITFinance\obj\Debug\App.g.cs
+D:\rabota\RF-master\RITFinance\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.cache
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.lref
+D:\rabota\RF-master\RITFinance\obj\Debug\App.baml
+D:\rabota\RF-master\RITFinance\obj\Debug\AddWindow.baml
+D:\rabota\RF-master\RITFinance\obj\Debug\EditWindow.baml
+D:\rabota\RF-master\RITFinance\obj\Debug\MainWindow.baml
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.g.resources
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.Properties.Resources.resources
+D:\rabota\RF-master\RITFinance\obj\Debug\RITFinance.csproj.GenerateResource.Cache
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\bin\Debug\RITFinance.exe.config
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.exe
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.pdb
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\bin\Debug\RITFinance.exe
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\bin\Debug\RITFinance.pdb
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.csprojResolveAssemblyReference.cache
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\AddWindow.g.cs
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\EditWindow.g.cs
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\MainWindow.g.cs
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\App.g.cs
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.cache
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.lref
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\App.baml
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\AddWindow.baml
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\EditWindow.baml
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\MainWindow.baml
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.g.resources
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.Properties.Resources.resources
+C:\Users\Dtocque\Desktop\RF-master (1)\RF-master\RITFinance\obj\Debug\RITFinance.csproj.GenerateResource.Cache
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\bin\Debug\RITFinance.exe.config
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.exe
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.pdb
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\bin\Debug\RITFinance.exe
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\bin\Debug\RITFinance.pdb
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.csprojResolveAssemblyReference.cache
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\AddWindow.g.cs
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\EditWindow.g.cs
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\MainWindow.g.cs
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\App.g.cs
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.cache
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance_MarkupCompile.lref
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\App.baml
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\AddWindow.baml
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\EditWindow.baml
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\MainWindow.baml
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.g.resources
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.Properties.Resources.resources
+C:\Users\Dtocque\Desktop\Новая папка\RF-master\RITFinance\obj\Debug\RITFinance.csproj.GenerateResource.Cache
